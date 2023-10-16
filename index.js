@@ -1,2 +1,1 @@
-console.log('Hello World!');
-console.log('This is Bate');
+console.log('Hello World! This is Bate');

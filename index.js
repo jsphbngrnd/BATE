@@ -5,8 +5,11 @@ $(document).ready(function() {
 
     new Splide('.splide', {
         type: 'loop',
-        gap: '6.9375rem', // This sets the spacing between slides
-        autoWidth: true, // This ensures slides only take up the width of their content
+        gap: '6.9375rem',
+        autoWidth: true,
+        autoplay: true,
+        interval: 2500,
+        pauseOnHover: true, 
     }).mount();
 
     console.log("Splide initialized.");
